@@ -11,8 +11,8 @@ Variables whose value can change should be in lower_case.
 ``` echo '\n' ```
 echos a new line.  
 
-Formatting output can be done with sed, awk, and cut.
-``` ls -al | sed -e 's/username//g; s/staff//g' ```
+Formatting output can be done with sed, awk, and cut.  
+``` ls -al | sed -e 's/username//g; s/staff//g' ```  
 search s/ some phrase and replace with some phrase /g  
 
 ## Bash References
