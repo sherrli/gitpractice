@@ -7,7 +7,6 @@ function sayHi {
 }
 echo "real hello "
 echo $HELLO
-
 echo "fake hello "
 sayHi
 
