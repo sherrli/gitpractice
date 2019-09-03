@@ -15,6 +15,16 @@ Formatting output can be done with sed, awk, and cut.
 ``` ls -al | sed -e 's/username//g; s/staff//g' ```  
 search s/ some phrase and replace with some phrase /g  
 
+
+## Git Syntax
+To append a commit from another branch to your current branch  
+``` git cherry-pick (commit ID) ```  
+To save a change in your local branch to another remote branch  
+``` git stash ```   
+``` git apply (stashed change ID) ```  
+``` git stash drop (stashed change ID) ```
+
+
 ## Bash References
 http://www.gnu.org/software/sed/manual/html_node/Regular-Expressions.html#Regular-Expressions  
 https://www.loggly.com/ultimate-guide/analyzing-linux-logs/  
