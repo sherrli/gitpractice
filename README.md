@@ -23,10 +23,10 @@ To save a change in your local branch to another remote branch
 ``` git stash ```   
 ``` git apply (stashed change ID) ```  
 ``` git stash drop (stashed change ID) ```
-To rename the branch old_name to new_name and delete branch old_name
-``` git branch -m new_name ```
-``` git push origin HEAD:old_name ``` 
-``` git push origin --delete old_name ```
+To rename the branch old_name to new_name and delete branch old_name  
+``` git branch -m new_name ```   
+``` git push origin HEAD:old_name ```   
+``` git push origin --delete old_name ```  
 
 ## Bash References
 http://www.gnu.org/software/sed/manual/html_node/Regular-Expressions.html#Regular-Expressions  
