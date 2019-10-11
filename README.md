@@ -19,10 +19,12 @@ search s/ some phrase and replace with some phrase /g
 ## Git Syntax
 To append a commit from another branch to your current branch  
 ``` git cherry-pick (commit ID) ```  
+
 To save a change in your local branch to another remote branch  
 ``` git stash ```   
 ``` git apply (stashed change ID) ```  
-``` git stash drop (stashed change ID) ```
+``` git stash drop (stashed change ID) ```  
+
 To rename the branch old_name to new_name and delete branch old_name  
 ``` git branch -m new_name ```   
 ``` git push origin HEAD:old_name ```   
